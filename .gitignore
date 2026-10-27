@@ -1,0 +1,21 @@
+# Dependências e builds do frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Builds, dados locais e uploads do backend
+backend/target/
+backend/data/
+backend/uploads/
+
+# Configurações locais e segredos
+**/.env
+!**/.env.example
+*.log
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# Memória local do Codex
+.codex/
